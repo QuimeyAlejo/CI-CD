@@ -16,6 +16,17 @@ def test_resta():
     assert resta(1, 1) == 1
 
 
+def test_porcentaje():
+    assert porcentaje(100, 20) == 20
+    assert porcentaje(50, 50) == 25
+    assert porcentaje(200, 10) == 20
+    assert porcentaje(0, 100) == 0
+def test_multiplicacion():
+    assert multiplicacion(2, 3) == 6
+    assert multiplicacion(-1, 1) == -1
+    assert multiplicacion(0.5, 2) == 1
+    assert multiplicacion(0, 100) == 0    
+
 
 
 
